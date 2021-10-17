@@ -67,3 +67,29 @@ l('users_id_seq'::regclass)
 Indexes:
     "users_pkey" PRIMARY KEY, btree (id)
     "users_email_key" UNIQUE CONSTRAINT, btree (email)
+
+
+add in package json
+"scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  }
+
+npm i nodemon,ejs
+
+create server.js
+
+create views
+
+npm install bcrypt and dotenv
+setup dbConfig.js and .env
+
+nodelogin=> insert into users (name,email,password) values ('kats
+uki', 'kbakugo@email.com','password');
+INSERT 0 1
+nodelogin=> select * from users
+nodelogin-> ;
+ id |  name   |       email       | password
+----+---------+-------------------+----------
+  1 | katsuki | kbakugo@email.com | password
+(1 row)
