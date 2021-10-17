@@ -15,6 +15,8 @@ s RLS | {}
 
 exit
 
+login as new created user
+psql -U gaurav -d postgres -p 9110
 postgres=> create database nodelogin;
 CREATE DATABASE
 postgres=> \l
