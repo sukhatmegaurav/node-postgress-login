@@ -1,0 +1,28 @@
+{
+  "name": "node-postgress-login",
+  "version": "1.0.0",
+  "description": "A demonstration on how to register, login, and logout using expressJS and PostgressDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sukhatmegaurav/node-postgress-login.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sukhatmegaurav/node-postgress-login/issues"
+  },
+  "homepage": "https://github.com/sukhatmegaurav/node-postgress-login#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
