@@ -114,3 +114,24 @@ npm start
 ```
 == navigate to 
 http://localhost:4000
+
+### File Struture
+```
+.
+|-- LICENSE
+|-- README.md
+|-- dbConfig.js
+|-- node_modules
+|-- package-lock.json
+|-- package.json
+|-- passportConfig.js
+|-- server.js
+|-- steps.log
+`-- views
+    |-- dashboard.ejs
+    |-- index.ejs
+    |-- login.ejs
+    `-- register.ejs
+
+437 directories, 1856 files
+```
